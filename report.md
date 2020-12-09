@@ -30,7 +30,9 @@ Download 200 English-language tweets from the 100 accounts. See [GET statuses/us
 
 Save the tweets from the 100 accounts to your GitHub repo.  It can all be in a single file or a separate file for each account. Since this is an intermediate file, the format is up to you. 
 
-[q1.ipynb](./q1.ipynb)
+The code for question #1 is [q1.ipynb](./q1.ipynb). 
+
+The resulting file is [screen_names.txt](./screen_names.txt). 
 
 ### Q2. - create account-term matrix
 Generate an account-term matrix from the accounts' tweets.  
@@ -58,8 +60,22 @@ In the account-term matrix, the account screen_name is the account identifier an
 
 Save the matrix in a text file (either tab-separated like blogdata.txt or comma-separated) and upload to your GitHub repo.
 
+
+The code for question #1 is [q2.ipynb](./q2.ipynb). 
+
+The resulting file is [tweetdata.txt](./tweetdata.txt). 
+
+
 ### Q3. - dendrograms
 Create an ASCII dendrogram and a JPEG dendrogram that uses hierarchical clustering to cluster the most similar accounts (see slides 21, 23 - Week 12).  Include the JPEG in your report and upload the ASCII file to GitHub (it will be too unwieldy for inclusion in the report).
+
+
+
+
+The code for question #1 is [q3.ipynb](./q3.ipynb). 
+ 
+The file I inserted into the provide example code is the same format as the file used in the example but I received an error. 
+
 
 ### Q4. - k-means
 Cluster the accounts using k-Means, using *k*=5,10,20 (see slide 37 - Week 12).  In separate files, list the accounts in each cluster, for each value of *k*.  How many iterations were required for each value of *k*?
