@@ -1,0 +1,13 @@
+http://feeds.feedburner.com/BeetTV
+http://bits.blogs.nytimes.com/rss2.xml
+http://www.blogmaverick.com/rss.xml
+http://rss.cnn.com/rss/disruptors
+http://feeds.feedburner.com/cinematech
+feed://www.contentinople.com/rss_simple.asp
+http://feeds.feedburner.com/crunchnotes
+http://feeds.feedburner.com/DataCenterKnowledge
+http://www.davideckoff.com/atom.xml
+http://feeds.feedburner.com/DigitalMediaBulletin
+http://www.dmwmedia.com/taxonomy/term/617/all/feed
+http://digitalvista.blogspot.com/feeds/posts/default
+http://feeds.emarketer.com/Articles.xml?src=rss_top_right_newsltr
