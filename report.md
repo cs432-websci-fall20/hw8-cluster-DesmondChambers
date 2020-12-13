@@ -61,7 +61,7 @@ In the account-term matrix, the account screen_name is the account identifier an
 Save the matrix in a text file (either tab-separated like blogdata.txt or comma-separated) and upload to your GitHub repo.
 
 
-The code for question #1 is [q2.ipynb](./q2.ipynb). 
+The code for question #2 is [q2.ipynb](./q2.ipynb). 
 
 The resulting file is [tweetdata.txt](./tweetdata.txt). 
 
@@ -72,9 +72,8 @@ Create an ASCII dendrogram and a JPEG dendrogram that uses hierarchical clusteri
 
 
 
-The code for question #1 is [q3.ipynb](./q3.ipynb). 
- 
-The file I inserted into the provide example code is the same format as the file used in the example but I received an error. 
+The code for question #3 is [dendrograms.ipynb](./dendrograms.ipynb). 
+  
 
 
 ### Q4. - k-means
@@ -82,8 +81,18 @@ Cluster the accounts using k-Means, using *k*=5,10,20 (see slide 37 - Week 12). 
 
 Can you characterize the accounts that were clustered into each group?  Which *k* value created the most reasonable clusters?
 
+I use alot of celebrities accounts to collect tweets. I did see that celebrates that have thiings in common group together. I thought the new account would group together but they were spread out. I think this maybe because they report on different things. 
+
+The code for question #4 is [k-means.ipynb](./k-means.ipynb). 
+
 ### Q5. - MDS
 Use MDS to create a JPEG of the accounts (see slide 50 - Week 12).  Include the JPEG in your report. How many iterations were required?
+
+I did the clustering several times but on average it took about 6 - 12 iterations were required.
+
+This assignment was a bit more challenging than I initially assumed. I used a lot of celebrities' accounts to collect tweets. The collect texts were then refined with the parameters provide for the assignments. After using tweepy to collect the tweets and regex to clean up the information. I then modify the given code in other to count the frequency of words and to remove stop words. I adjust the refactoring section of the code a lot of times until I got close to 1000 words. I narrow down the initial word list with the refactor by showing modifying the window. In the end frac > 0.25 and frac < 0.39: get the best result. After this is was simply just using the file I created to then created to plug in the given code in order to create the necessary images. .
+
+The code for question #4 is [k-means.ipynb](./k-means.ipynb). 
 
 ## Extra Credit
 
